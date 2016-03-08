@@ -49,13 +49,13 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="5" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -99,13 +99,35 @@
 <layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="mtFinish" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="mbFinish" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="mtGlue" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="mbGlue" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="mtTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="mHoles" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="mMilling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -300,63 +322,6 @@
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="sym">
-<description>LT-Spice library generated with :&lt;br&gt;
-import-ltspice.ulp&lt;br&gt;
-from: E:/Programme/LTC/LTspiceIV/lib/sym/*.asy&lt;br&gt;
-at 12.06.2012 10:18:08</description>
-<packages>
-<package name="C0805">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
-<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
-<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CAP">
-<wire x1="2.54" y1="-5.715" x2="2.54" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-4.445" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="-4.445" x2="5.08" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="0" y1="-5.715" x2="5.08" y2="-5.715" width="0.1524" layer="94"/>
-<text x="3.81" y="-1.27" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="3.81" y="-8.89" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="A" x="2.54" y="0" visible="off" length="point" direction="pas"/>
-<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<pin name="B" x="2.54" y="-10.16" visible="off" length="point" direction="pas"/>
-<text x="2.54" y="-10.16" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CAP" prefix="C" uservalue="yes">
-<description>Capacitor</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C0805">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="B" pad="2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4687,12 +4652,11 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="wilc1000" deviceset="ATWILC1000-MR110PA" device="" value="WILC1000"/>
+<part name="WI_SOC" library="wilc1000" deviceset="ATWILC1000-MR110PA" device="" value="WILC1000"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="sym" deviceset="CAP" device="" value="10uF/16V"/>
-<part name="Q1" library="wifi-hat" deviceset="NDS332P" device="-SAG"/>
+<part name="Q1" library="wifi-hat" deviceset="NDS332P" device="-SAG" value="NDS332P"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="0 Ohm"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="0 Ohm"/>
@@ -4713,21 +4677,23 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$2" library="pizero" deviceset="PIZERO_THROUGH_HOLE" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="C1" library="resistor" deviceset="C-EU" device="C0603K" value="10uF/16V"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="45.72" y="-68.58" rot="R180"/>
+<instance part="WI_SOC" gate="G$1" x="45.72" y="-68.58" smashed="yes" rot="R180">
+<attribute name="VALUE" x="38.1" y="-35.56" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="GND4" gate="1" x="25.4" y="-73.66" rot="R270"/>
 <instance part="GND5" gate="1" x="96.52" y="-68.58" rot="R90"/>
 <instance part="GND6" gate="1" x="40.64" y="-27.94" rot="R180"/>
-<instance part="C1" gate="G$1" x="43.18" y="26.67" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.37" y="27.94" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="39.37" y="30.48" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="Q1" gate="G$1" x="55.88" y="35.56" smashed="yes" rot="MR180">
+<attribute name="NAME" x="50.8" y="43.18" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="51.054" y="29.464" size="1.27" layer="96" rot="MR180"/>
 </instance>
-<instance part="Q1" gate="G$1" x="55.88" y="35.56" rot="MR180"/>
 <instance part="GND3" gate="1" x="30.48" y="25.4" smashed="yes" rot="R270">
 <attribute name="VALUE" x="27.94" y="27.94" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -4778,40 +4744,44 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND9" gate="1" x="170.18" y="48.26" smashed="yes" rot="R180">
 <attribute name="VALUE" x="172.72" y="50.8" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="C1" gate="G$1" x="38.1" y="33.02" smashed="yes">
+<attribute name="NAME" x="39.624" y="33.401" size="1.778" layer="95"/>
+<attribute name="VALUE" x="32.004" y="28.321" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@1"/>
+<pinref part="WI_SOC" gate="G$1" pin="GND@1"/>
 <wire x1="30.48" y1="-73.66" x2="27.94" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@2"/>
+<pinref part="WI_SOC" gate="G$1" pin="GND@2"/>
 <wire x1="71.12" y1="-68.58" x2="81.28" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="SDIO_CFG"/>
+<pinref part="WI_SOC" gate="G$1" pin="SDIO_CFG"/>
 <wire x1="81.28" y1="-68.58" x2="93.98" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-73.66" x2="81.28" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="-73.66" x2="81.28" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="81.28" y="-68.58"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@3"/>
+<pinref part="WI_SOC" gate="G$1" pin="GND@3"/>
 <wire x1="40.64" y1="-33.02" x2="40.64" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="45.72" y1="25.4" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="A"/>
-<wire x1="40.64" y1="26.67" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
-<junction x="40.64" y="25.4"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="40.64" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="27.94" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
+<junction x="38.1" y="25.4"/>
 </segment>
 <segment>
 <wire x1="7.62" y1="-73.66" x2="7.62" y2="-81.28" width="0.1524" layer="91"/>
@@ -4857,7 +4827,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VBATT"/>
+<pinref part="WI_SOC" gate="G$1" pin="VBATT"/>
 <wire x1="60.96" y1="-33.02" x2="60.96" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
@@ -4880,30 +4850,30 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="33.02" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
-<junction x="40.64" y="38.1"/>
-<pinref part="C1" gate="G$1" pin="B"/>
-<wire x1="40.64" y1="36.83" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="35.56" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
+<junction x="38.1" y="38.1"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SD_CLK"/>
+<pinref part="WI_SOC" gate="G$1" pin="SD_CLK"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="-50.8" x2="81.28" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SD_CMD"/>
+<pinref part="WI_SOC" gate="G$1" pin="SD_CMD"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="-53.34" x2="81.28" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SD_DAT0"/>
+<pinref part="WI_SOC" gate="G$1" pin="SD_DAT0"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="-55.88" x2="81.28" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
@@ -4911,21 +4881,21 @@ Source: AVX .. aphvc.pdf</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="SD_DAT1"/>
+<pinref part="WI_SOC" gate="G$1" pin="SD_DAT1"/>
 <wire x1="81.28" y1="-58.42" x2="71.12" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="SD_DAT2"/>
+<pinref part="WI_SOC" gate="G$1" pin="SD_DAT2"/>
 <wire x1="81.28" y1="-60.96" x2="71.12" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="SD_DAT3"/>
+<pinref part="WI_SOC" gate="G$1" pin="SD_DAT3"/>
 <wire x1="81.28" y1="-63.5" x2="71.12" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4992,7 +4962,7 @@ Source: AVX .. aphvc.pdf</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="CHIP_EN"/>
+<pinref part="WI_SOC" gate="G$1" pin="CHIP_EN"/>
 <wire x1="55.88" y1="-25.4" x2="55.88" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5000,7 +4970,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="-25.4" x2="53.34" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VDDIO"/>
+<pinref part="WI_SOC" gate="G$1" pin="VDDIO"/>
 </segment>
 </net>
 <net name="SD_DAT3" class="0">
@@ -5032,7 +5002,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="-66.04" x2="7.62" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="RESET_N"/>
+<pinref part="WI_SOC" gate="G$1" pin="RESET_N"/>
 <wire x1="7.62" y1="-60.96" x2="7.62" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-60.96" x2="7.62" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="7.62" y="-60.96"/>
